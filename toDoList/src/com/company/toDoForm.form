@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.toDoForm">
+  <grid id="27dc6" binding="toDoFormView" layout-manager="GridLayoutManager" row-count="3" column-count="16" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="2" left="2" bottom="2" right="2"/>
+    <constraints>
+      <xy x="20" y="20" width="538" height="513"/>
+    </constraints>
+    <properties>
+      <maximumSize width="400" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <vspacer id="ac3df">
+        <constraints>
+          <grid row="0" column="10" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="57628" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="2" col-span="3" vsize-policy="0" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <label value="New Task"/>
+          <text value="New Task"/>
+        </properties>
+      </component>
+      <component id="39385" class="javax.swing.JButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <label value="Edit Task"/>
+          <text value="Edit Task"/>
+        </properties>
+      </component>
+      <component id="2e249" class="javax.swing.JButton" binding="TestButton">
+        <constraints>
+          <grid row="0" column="4" row-span="3" col-span="6" vsize-policy="0" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <label value="Log Out"/>
+          <text value="Log Out"/>
+        </properties>
+      </component>
+      <component id="8cd51" class="javax.swing.JList" binding="list1" default-binding="true">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
